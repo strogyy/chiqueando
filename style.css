@@ -470,3 +470,281 @@ body {
 }
 
 /*section4*/
+
+/*section5*/
+.section5 {
+  height: 381px;
+  background-image: linear-gradient(
+      rgba(48, 21, 45, 0.123),
+      rgba(11, 8, 12, 0.151)
+    ),
+    url("https://cdn.zeplin.io/5f85cec23396bc8808015f95/assets/a441efb4-37ef-4bca-8d4b-e2bdeb2ddf55.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section5-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 381px;
+  color: rgb(255, 255, 255);
+  max-width: 650px;
+  margin: auto;
+}
+.section5-container h3 {
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 22px;
+}
+.section5-container p {
+  line-height: 36px;
+  margin-bottom: 25px;
+}
+.sec5-typs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.sec5typ {
+  width: 404px;
+  height: 55px;
+  padding: 14px;
+  border: 1px solid #ffebed;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.sec5btn {
+  width: 136px;
+  height: 55px;
+  background-color: #ff5c70;
+  line-height: 55px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.sec5btm-btn span {
+  color: #ff5c70;
+}
+/*section5*/
+
+/*footer*/
+.footer {
+  height: 834px;
+  background-color: #192836;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 820px;
+  position: relative;
+}
+
+.mssgtab {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  background-color: #0169ba;
+  right: -290px;
+  top: 700px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msgs {
+  color: #fff;
+  font-size: 32px;
+}
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.footer-box {
+  width: 360px;
+  height: 684px;
+  background-color: #16232e;
+  border-radius: 4px;
+}
+
+.footerbox-container {
+  margin: 30px;
+  color: #707e8c;
+  position: relative;
+}
+
+.logofooter {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.pt1 {
+  margin-bottom: 5px;
+}
+.pt2 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+.pt3 {
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+}
+.fillbx {
+  width: 100%;
+  background-color: #111b24;
+  border: rgba(112, 126, 140, 0.15) 1px solid;
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 7px;
+}
+.sent {
+  position: absolute;
+  right: 24px;
+  top: 257px;
+  color: #707e8c;
+  cursor: pointer;
+}
+.undrlabl {
+  margin-bottom: 24px;
+}
+.undrlabl i {
+  font-size: 14px;
+  margin-left: 4px;
+}
+.pt4 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 17px;
+}
+.btmps {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.btmps i {
+  margin-right: 12px;
+}
+.marker {
+  color: #ff5c70;
+}
+.square {
+  color: yellow;
+}
+.envolpe {
+  color: rgb(72, 105, 255);
+}
+.lstbtmps {
+  margin-bottom: 40px;
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.footer-socials i {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fs1 {
+  color: rgba(228, 64, 95, 0.6);
+}
+.fs2 {
+  color: rgba(59, 89, 153, 0.6);
+}
+.fs3 {
+  color: rgba(221, 75, 57, 0.6);
+}
+.fs4 {
+  color: rgba(85, 172, 238, 0.6);
+}
+
+.footerbox-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.116);
+  margin-bottom: 47px;
+}
+.btm-footer-line {
+  text-align: center;
+}
+.btm-footer-line span {
+  color: #ff5c70;
+}
+.line-second {
+  color: #fff !important;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link1 {
+  margin: 40px;
+}
+.link-item1 {
+  margin-bottom: 62px;
+}
+.link-item1 h3 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.link-item1 a {
+  text-decoration: none;
+  color: #707e8c;
+}
+.link-item1 ul {
+  list-style: none;
+}
+
+.flinkR {
+  font-size: 13px;
+  margin-right: 7px;
+}
+.link-item1 ul li {
+  margin-bottom: 20px;
+}
+
+.flbottomlinkslft ul {
+  display: flex;
+  list-style: none;
+}
+.flbottomlinkslft a {
+  color: #707e8c;
+  text-decoration: none;
+}
+.flbottomlinkslft li {
+  margin-right: 20px;
+}
+.gffgdfdggfd {
+  display: flex;
+  justify-content: space-between;
+}
+.flbottombtnL {
+  margin-left: 30px;
+}
+.flbottombtn {
+  text-decoration: none;
+  color: #707e8c;
+  padding: 5px 15px;
+  border: 1px solid #707e8c;
+  border-radius: 5px;
+}
+
+/*footer*/
